@@ -1,4 +1,4 @@
-FROM 1234567890.dkr.ecr.us-east-1.amazonaws.com/ubuntu
+FROM 123567890.dkr.ecr.us-east-1.amazonaws.com/ubuntu
 MAINTAINER Alen Komljen <alen.komljen@live.com>
 
 ENV USER root
