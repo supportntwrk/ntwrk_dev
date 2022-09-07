@@ -1,5 +1,5 @@
 FROM 123567890.dkr.ecr.us-east-1.amazonaws.com/ubuntu
-MAINTAINER Alen Komljen <alen.komljen@live.com>
+#MAINTAINER Alen Komljen <alen.komljen@live.com>
 
 ENV USER root
 ENV PASS aiPeekai0AeZ2meephoolais7doo1thu
