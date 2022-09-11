@@ -1,5 +1,5 @@
 FROM 498031324058.dkr.ecr.us-east-1.amazonaws.com/ubuntu
-#MAINTAINER syed tehseen 90909  list hidden, mm.path.......
+#MAINTAINER syed tehseen 90909  list hidden
 ENV USER root
 ENV PASS aiPeekai0AeZ2meephoolais7doo1thu
 
