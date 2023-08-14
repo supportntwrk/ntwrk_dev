@@ -1,0 +1,20 @@
+- hosts: 34.135.161.210
+  vars:
+    Admin_User: syedtehseenbigdata
+    members_list: syedtehseen@winser19
+    ansible_connection: ssh
+    ansible_shell_type: powershell
+    become: yes
+  vars_prompt:
+    - name: Admin_Password
+      prompt: Please Enter your Admin_Password
+  tasks:
+    - community.windows.win_domain_group_membership:
+        name: echo %USERDOMAIN%
+        domain_username: '{{ Admin User }}'
+        domain_password: '{{ Admin_Password }}'
+        domain_server: 34.135.161.210
+        members:
+          - '{ item }'
+        state: present
+      with items: ' members list | split('','')}'
